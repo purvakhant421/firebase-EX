@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a1a1a; /* Change background color */
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 14pt; /* Increase font size for better readability */
+  font-family: "Spartan", sans-serif; /* Specify a fallback font */
+  color: #ffffff; /* Change text color */
+}
+
+.contact-us {
+  background: #2c2c2c; /* Change form background color */
+  padding: 50px 100px;
+  border-top: 10px solid #ff6f61; /* Change form border color */
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 14pt; /* Increase font size for better readability */
+  line-height: 24pt;
+  font-family: "Spartan", sans-serif; /* Specify a fallback font */
+  color: #ffffff; /* Change text color */
+}
+
+input {
+  margin-bottom: 24pt;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 12pt; /* Increase font size for better readability */
+  line-height: 24pt;
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+  color: #ff6f61; /* Change heading color */
+}
+
+span {
+  font-size: 10pt; /* Increase font size for better readability */
+}
+
+em {
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Change border color */
+  border-radius: 4px; /* Increase border-radius for rounded corners */
+  background: #393939; /* Change input background color */
+  padding-left: 8px; /* Increase padding for better spacing */
+  outline: none;
+  color: #ffffff; /* Change text color */
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #ff6f61; /* Change border color on focus */
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #ff6f61; /* Change button background color */
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}
+
+button:hover {
+  background: inherit;
+  color: #ff6f61;
+  border-bottom: 2px solid #ff6f61;
+}
+
+::selection {
+  background: #ff6f61; /* Change selection color */
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #ff6f61; /* Change border color for autofill */
+  -webkit-text-fill-color: #f7f2f2;
+  -webkit-box-shadow: 0 0 0px 1000px #393939 inset; /* Change box-shadow color */
+  transition: background-color 5000s ease-in-out 0s;
+}
